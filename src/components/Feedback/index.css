@@ -1,0 +1,66 @@
+/* Write your CSS code here. */
+
+* {
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  font-family: 'Roboto';
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 300px;
+}
+
+.card {
+  height: 350px;
+  width: 700px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.unordered-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.heading {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.size {
+  height: 50px;
+  width: 60px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.paragraph {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-right: 60px;
+}
+
+.description {
+  margin-left: 10px;
+}
+
+.button {
+  background-color: white;
+  border-width: 0px;
+}
